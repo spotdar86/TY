@@ -27,7 +27,7 @@ public class s3q2 {
                 System.out.print("Account number: ");
                 int accno = scanner.nextInt();
                 System.out.print("Account name: ");
-                String accname = scanner.next();
+                String accname = scanner.nextLine();
                 System.out.print("Balance: ");
                 double balance = scanner.nextDouble();
 
